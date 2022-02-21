@@ -1,0 +1,56 @@
+{
+  "name": "71",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-pdf/renderer": "^2.1.1",
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^12.8.3",
+    "bootstrap": "^4.6.0",
+    "cloudinary-react": "^1.7.0",
+    "firebase": "^8.6.1",
+    "google-map-react": "^2.1.10",
+    "google-maps": "^4.3.3",
+    "mdb-ui-kit": "^3.6.0",
+    "mdbreact": "^5.0.2",
+    "react": "^17.0.2",
+    "react-beautiful-dnd": "^13.1.0",
+    "react-bootstrap": "^1.6.0",
+    "react-bootstrap-date-picker": "^5.1.0",
+    "react-bootstrap-icons": "^1.5.0",
+    "react-datepicker": "^4.1.1",
+    "react-datetime": "^3.0.4",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^11.3.4",
+    "react-number-format": "^4.6.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "sqlite3": "^5.0.2",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

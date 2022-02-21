@@ -1,0 +1,296 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.center{
+  text-align: center;
+}
+.right{
+  text-align: right;
+}
+.containerBackdrop{
+  background-color: #d8e3fa;
+  border-radius: 5px;
+}
+.AdminCarShow{
+  background-color: #e9ecef;
+  margin: 5px;
+  border-radius: 5px;
+}
+.adminRowImg{
+  border-radius: 5px;
+  margin: 10px;
+  height: auto;
+  width: 350px;
+}
+.milesPrice{
+  font-size: 25px;
+  text-align: center;
+}
+.frontmilesPrice{
+  font-size: 25px;
+  text-align: center;
+}
+.vinStock{
+  font-size: 25px;
+  text-align: center;
+}
+.carButtons{
+margin: 10px;
+}
+.showroomRowImg{
+  border-radius: 5px;
+  max-width: 100%;
+  height: auto;
+  width: 350px;
+  object-fit: cover;
+}
+.carTile{
+  color:black;
+  background-color: #e9ecef;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.carTile:link{
+  color:black;
+}
+.centerCar{
+  text-align: center;
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+  justify-content: center;
+}
+.carProfileContainer{
+  background-color: #e9ecef;
+  border-radius: 5px;
+  padding: 10px;
+}
+.carProfileImg{
+  border-radius: 5px;
+}
+.servcieContainer{
+  background-color: #e9ecef;
+  padding: 10px;
+}
+.imageDrop{
+  background-color: #e9ecef;
+  border-radius: 5px;
+  height: auto;
+  width: auto;
+  padding: 5%;
+  margin-bottom: 38px;
+  font-size: 22px;
+}
+.adminRowText{
+padding-top: 10%;
+}
+.carTileText{
+  padding-top: 8%;
+}
+.frontcarTileText{
+  padding-top: 8%;
+}
+.vhReport{
+  margin-right: 4%;
+  margin-bottom: 1%;
+}
+.frontvhReport{
+  margin-right: 4%;
+  margin-bottom: 1%;
+}
+.daysOnMarket{
+margin-left: 75%;
+margin-top: 1%;
+}
+.saveImageButton{
+  float: right;
+}
+.dragDropOuter{
+  display: "flex"
+}
+.profile{
+  background-color: #e9ecef;
+  margin-top: 10%;
+  margin-bottom: 25%;
+  margin-right: 0%;
+  margin-left: 10%;
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  border-radius: 5px;
+  height: 200;
+}
+.profileDetails{
+  font-size:25px;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.loginContainer{
+margin: 20%;
+margin-top: 5%;
+
+}
+.left{
+  text-align: left;
+}
+.businessLogo{
+  width: 50%;
+  margin-top: 8%;
+  margin-left: 23%;
+  margin-right: 25%;
+}
+.navLogo{
+  width:20%;
+}
+
+.tileCar{
+  color:black;
+}
+.tileCar:link{
+  color:black;
+}
+.tileCar:hover{
+  color:black;
+  text-decoration: none;
+}
+.googleMap{
+  height:400px;
+  width: 100%;
+  border:0;
+}
+.contactAddress{
+  padding-top: 10%;
+}
+.description{
+  white-space: pre-line;
+}
+.carouselIMG{
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+.darkText{
+}
+.carouselCaption{
+  background-color: rgba(70, 70, 70, .6);
+  border-radius: 100px; 
+}
+.serviceIMGPage{
+  height: 300px;
+  width: 450px;
+  float: right;
+  margin-right: 10%;
+}
+.invoiceDetails{
+  background-color: #e9ecef;
+  border-radius: 5px;
+}
+.createdInvoiceRepairs{
+  background-color: #e9ecef;
+  border-radius: 5px;
+  margin-top: 1%;
+  padding:1%;
+}
+.partsIndent{
+  text-indent: 5%;
+}
+/*Mobile Screen*/
+@media only screen and (max-width: 992px) {
+  .daysOnMarket{
+    margin-left: 1%;
+    margin-top: 1%;
+    width: 97%;
+    }
+    .adminRowText{
+      padding-top: 3%;
+    }
+    .milesPrice{
+      font-size: 20px;
+      text-align: center;
+      margin-top: -10%;
+    }
+    .vinStock{
+      padding-bottom: 1%;
+      font-size: 20px;
+    }
+    .yearMakeModel{
+      font-size: 30px;
+    }
+    .addInventoryButton{
+      margin-bottom: 10%;
+    }
+    .saleStatus{
+      text-align: center;
+    }
+    .AdminCarShow{
+      margin-top: 5%;
+    }
+    .loginContainer{
+      margin: 5%;
+    }
+    .businessLogo{
+      width: 70%;
+      margin-top: 0%;
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+    .frontcarTileText{
+      margin-top: -5%;
+    }
+    .frontmilesPrice{
+      margin-top: 2%;
+      padding-right: 3%;
+    }
+    .vhReport{
+      margin-right: 1%;
+      margin-left: 1%;
+      margin-bottom: 2%;
+    }
+    .frontMilePriceCar{
+      font-size: 20px;
+      text-align: center;
+    }
+    .carProfileYMM{
+      font-size: 30px;
+    }
+    .description{
+      margin-top: 2%;
+    }
+}
